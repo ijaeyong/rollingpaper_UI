@@ -5,7 +5,7 @@ font-family: 'Dongle', sans-serif;
 */
 
 body{
-    font: 30px 'Dongle', sans-serif;
+    font: 50px 'Dongle', sans-serif;
     color: #6c6c6c;
 }
 .cf:after{
@@ -20,7 +20,8 @@ body{
 .fa-solid{
     text-indent: -9999em;
     display: inline-block;
-    vertical-align: text-top;
+    /* vertical-align: center; */
     width: 26px;
     height: 30px;
+    
 }
