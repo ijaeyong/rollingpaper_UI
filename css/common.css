@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+/*
+font-family: 'Dongle', sans-serif;
+*/
+
+body{
+    font: 30px 'Dongle', sans-serif;
+    color: #6c6c6c;
+}
+.cf:after{
+    content:'';
+    clear:both;
+    display: block;
+}
+.container{
+    width: 1170px;
+    margin:0 auto;
+}
+.fa-solid{
+    text-indent: -9999em;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 26px;
+    height: 30px;
+}

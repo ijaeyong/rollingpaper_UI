@@ -1,0 +1,87 @@
+@import url(reset.css);
+@import url(common.css);
+
+/* ----------header----------*/
+header{
+    padding: 31px 0;
+    border: 1px solid black;
+}
+header div{
+    border: 1px solid aqua;
+}
+header div nav{
+    border: 1px solid sandybrown;
+}
+/* header > div{
+    display: flex;
+} */
+.logo a{
+    border: 1px solid blue;
+    width:150px ;
+    height: 30px;
+    background: url() no-repeat;
+    text-indent: -9999em;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* top: 50%; */
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    
+}
+header .logo{
+    float: left;
+    padding-top: 30px;
+}
+header ul li .fa-bars{
+    background: url(../images/bars-solid.svg) no-repeat;
+    
+}
+header ul li .fa-user{
+    background: url(../images/user-solid.svg) no-repeat;
+    
+}
+header nav ul li:nth-child(1){
+    float: left;
+}
+header nav ul li:nth-child(2){
+    float: right;
+}
+header nav ul li a{
+    text-indent: -9999em;
+    border: 1px solid hotpink;
+    /* float: right; */
+}
+/* ----------body----------*/
+div.MyAccount{
+    border: 1px solid red;
+    background: rgb(255, 181, 201);
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+}
+.MyAccount .account{
+    border: 1px solid yellow;
+    height: 200px;
+    color: brown;
+    vertical-align: middle;
+    /* font-size: 60px; */
+    text-align: center;
+    margin: 0 auto;
+
+}
+div.MyWorkplace{
+    border: 1px solid purple;
+    color: blue;
+    height: 300px;
+}
+/* ----------instagram----------*/
+div.Instagram{
+    border: 1px solid green;
+    color: blue;
+    height: 100px;
+}
