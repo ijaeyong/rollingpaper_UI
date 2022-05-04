@@ -8,13 +8,13 @@ body{
     font: 50px 'Dongle', sans-serif;
     color: #6c6c6c;
 }
-.cf:after{
+/* .cf:after{
     content:'';
     clear:both;
     display: block;
-}
+} */
 .container{
-    width: 1170px;
+    width: 80%;
     margin:0 auto;
 }
 .fa-solid{
