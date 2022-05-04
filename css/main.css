@@ -4,7 +4,7 @@
 /* ----------header----------*/
 header{
     padding: 31px 0;
-    border: 1px solid black;
+    border: 3px dotted black;
 }
 header div{
     border: 1px solid aqua;
@@ -108,6 +108,7 @@ main .MyAccount{
     align-items: center;
     font-size: 30px;
     color: #ffeead;
+    border-radius: 50%;
 }
 
 .MyWorkplace > div:nth-child(1n) {
@@ -130,4 +131,19 @@ div.Instagram{
     color: blue;
     height: 100px;
     padding: 30px 0;
+}
+/*
+슬라이드용 이미지 경로 
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-08.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-09.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-10.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-11.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-12.jpg
+
+*/
+.controls {text-align: center;}
+.carousel {margin:0 auto;}
+.carousel-item img{width:20%; }
+.indicators{
+  background: #333;
 }
