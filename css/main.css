@@ -90,25 +90,27 @@ main .MyAccount{
 /* ----------body(workplace)----------*/
 
 .MyWorkplace {
-    border: 1px solid black;
+    /* border: 3px dotted gray; */
     height: 100%;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(infinite, 100px);
     justify-content:space-evenly;
     align-content:center;
     padding: 20px 0;
     background: #ffeead;
+    
 }
 
 .MyWorkplace > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 34px;
     color: #ffeead;
     border-radius: 50%;
+    height: 100px;
 }
 
 .MyWorkplace > div:nth-child(1n) {
