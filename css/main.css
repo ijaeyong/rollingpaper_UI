@@ -3,31 +3,38 @@
 
 /* ----------header----------*/
 header{
-    padding: 31px 0;
-    border: 3px dotted black;
+    padding: 5px 0;
+    background: #ffeead;
+    /* border: 3px dotted black; */
 }
 header div{
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
     /* display: flex;
     flex: 1 1 0; */
 }
+header div h1{
+    text-indent: -9999em;
+    display: hidden;
+    width: 0;
+    height: 0;
+}
 header div nav{
-    border: 1px solid sandybrown;
+    /* border: 1px solid sandybrown; */
     margin: 10px;
     
 }
 /* header > div{
     display: flex;
 } */
-.logo a{
-    border: 1px solid blue;
+.Header_logo a{
+    /* border: 1px solid blue; */
     width:150px ;
     height: 50px;
     /* background: url() no-repeat; */
-    background: #fff;
+    /* background: #fff; */
     text-indent: -9999em;
-    display: flex;
-    
+    /* display: flex; */
+    /* vertical-align: middle; */
     /* position: absolute; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -43,25 +50,32 @@ header .logo{
 }
 header ul{
     padding: 0 5%;
+    display:flex;
+    justify-content: space-between;
+}
+header ul li{
+
 }
 header ul li .fa-bars{
     background: url(../images/bars-solid.svg) no-repeat;
     vertical-align: middle;
-    
 }
 header ul li .fa-user{
     background: url(../images/user-solid.svg) no-repeat;
     vertical-align: middle;
 }
 header nav ul li:nth-child(1){
-    float: left;
+    /* float: left; */
+    /* order: 1; */
+    margin-right: auto;
 }
-header nav ul li:nth-child(2){
-    float: right;
+header nav ul li:nth-child(3){
+    /* float: right; */
+    margin-left: auto;
 }
 header nav ul li a{
     text-indent: -9999em;
-    border: 1px solid hotpink;
+    /* border: 1px solid hotpink; */
     /* float: right; */
 }
 
@@ -74,6 +88,7 @@ main .MyAccount{
     height: 100px;
     margin: 0 auto;
     padding: 30px 0;
+    border: 5px dotted rgb(207, 57, 97);
 }
 .MyAccount .account{
     /* border: 1px solid yellow; */
@@ -103,6 +118,7 @@ main .MyAccount{
     
 }
 
+
 .MyWorkplace > div {
     display: flex;
     justify-content: center;
@@ -111,6 +127,10 @@ main .MyAccount{
     color: #ffeead;
     border-radius: 50%;
     height: 100px;
+}
+.MyWorkplace div a{
+    /* background: url(../images/plus-solid.svg) no-repeat; */
+    color: #ffeead;
 }
 
 .MyWorkplace > div:nth-child(1n) {
@@ -144,8 +164,8 @@ https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-12.jpg
 
 */
 .controls {text-align: center;}
-.carousel {margin:0 auto;}
-.carousel-item img{width:20%; }
+/* .carousel {margin:0 auto;} */
+.carousel-item img{width:15%; }
 .indicators{
   background: #333;
 }
