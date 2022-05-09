@@ -7,6 +7,7 @@ font-family: 'Dongle', sans-serif;
 body{
     font: 50px 'Dongle', sans-serif;
     color: #6c6c6c;
+    /* width: 100%; */
 }
 /* .cf:after{
     content:'';
@@ -23,5 +24,4 @@ body{
     /* vertical-align: center; */
     width: 26px;
     height: 30px;
-    
 }
