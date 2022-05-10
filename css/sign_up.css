@@ -18,7 +18,7 @@ form{
     text-align:center;
 }
 .banner-tt{
-    font-size: 54px;
+    font-size: 50px;
     line-height: 81px;
     text-align: center;
     letter-spacing: 2.75px;
@@ -104,8 +104,17 @@ input[type="submit"] {
 footer{
     text-align: center;
 }
+footer div{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
 .link{
     font-size: 30px;
+    
     text-decoration: underline;
-    text-decoration-color: rgba(0, 0, 0, 0.5);
+    text-underline-position: from-font;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(0, 0, 0, 0.3);
+    margin: 0 30px;
 }
