@@ -20,8 +20,8 @@ body{
 }
 .fa-solid{
     text-indent: -9999em;
+    vertical-align: center;
     display: inline-block;
-    /* vertical-align: center; */
     width: 26px;
     height: 30px;
 }
