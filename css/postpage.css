@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+@import url(reset.css);
+@import url(common.css);
+
+body{
+    height: 100%;
+    background: #ffeead;
+    color: #000;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+main h2{
+    text-align: center;
+    
+}
+/*------postpage_conatianer------*/
+main .postpage_container{
+}
+main .border1{
+    border-top: calc(10px) solid rgb(145, 41, 41);
+    border-right: calc(10px) solid rgb(77, 21, 21);
+    border-bottom: calc(10px) solid rgb(77, 21, 21);
+    border-left: calc(10px) solid rgb(145, 41, 41);
+    margin: 0 0 81px 0;
+    box-shadow: 5px 4px 12px rgba(0, 0, 0, 0.5);
+    background: #000;
+}
+main .border2{
+    border-top: calc(10px) solid rgb(77, 21, 21);
+    border-right: calc(10px) solid rgb(145, 41, 41);
+    border-bottom: calc(10px) solid rgb(145, 41, 41);
+    border-left: calc(10px) solid rgb(77, 21, 21);
+    background: url(../images/cork_board_texture.jpg);
+    box-shadow: inset 5px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.postpage_container nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+main nav .postpoage_picture{
+    border-top: 10px solid rgb(245, 222, 179);
+    border-right: 10px solid rgb(186, 168, 136);
+    border-bottom: 10px solid rgb(186, 168, 136);
+    border-left: 10px solid rgb(245, 222, 179);
+    width: 30%;
+    height: 180px;
+    text-indent: -9999em;
+    box-shadow: inset 2px 0px 6px rgba(0, 0, 0, 0.5),5px 4px 12px rgba(0, 0, 0, 0.5);
+    background-image: url(../images/nick-fewings-4dI5OP2Ee64-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+main nav .postpage{
+    /* border: 1px solid green; */
+    text-align: center;
+}
+main nav .postpage li{
+    /* border: 1px solid rgb(44, 19, 19); */
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    margin: 5px 0;
+}
+main nav .postpage .postpage_name{
+    font-size: 40px;
+    line-height: 80px;
+}
+.tape1, .tape2, .tape3, .tape4, .tape5 {
+    background: url("../images/dotted-tape-sprite.png") no-repeat;
+    background-size: 660px;
+    width: 250px;
+    height: 80px;
+}
+.tape1 {
+    background-position: -35px -40px;
+}
+.tape2 {
+    background-position: -35px -250px;
+}
+.tape3 {
+    background-position: -35px -415px;  
+}
+.tape4 {
+    background-position: -35px -570px;
+}
+.tape5 {
+    background-position: -35px -750px;
+}
+main nav .postpage .postpage_des{
+    font-size: 35px;
+    line-height: 40px;
+    background: #fff;
+    vertical-align: center;
+    text-align: center;
+    /* overflow-wrap: break-word; */
+}
+main nav .postpage .postpage_des p{
+    text-align: center;
+}
+
+/*------postpage_coms------*/
+.postpage_coms{
+    /* border: 1px solid yellowgreen; */
+}
+.postpage_coms .com_board{
+    text-indent: -9999em;
+    margin: -20px 0;
+}
+.postpage_coms .com_container{
+    /* border: 2px solid darkblue; */
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    /* grid-template-rows: repeat(infinite, 100px); */
+    grid-gap: 20px;
+    justify-content:space-evenly;
+    align-content:center;
+    padding: 20px 0;
+    height: 100%;
+    text-align: center;
+}
+.postpage_coms .com_container a{
+    width: 140px;
+    height: 140px;
+    box-shadow: 5px 4px 12px rgba(0, 0, 0, 0.5);
+}
+.postpage_coms .com_container a:hover{
+    width: 140px;
+    height: 140px;
+    box-shadow: 5px 4px 12px rgba(0, 0, 0, 0.5);
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center 0px;
+}
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    33% { transform: rotate(3deg); }
+    /* 50% { transform: rotate(0deg); } */
+    66% { transform: rotate(-3deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.postpage_coms .com_container a:nth-child(1n){
+    background-color: #96ceb4;
+}
+.postpage_coms .com_container a:nth-child(2n){
+    background-color: #ff6f69;
+}
+.postpage_coms .com_container a:nth-child(3n){
+    background-color: #ffcc5c;
+}
+.postpage_coms .com_container a .com_bullet{
+    background: url(../images/thumbtack-solid.svg) no-repeat;
+    text-indent: -9999em;
+    width: 25px;
+    height: 25px;
+    transform: rotate(0.05turn) translateY(-10px);
+    margin: 0 auto;
+}
+.postpage_coms .com_container a .com_text{
+    transform: translateY(9px);
+}
