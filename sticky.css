@@ -1,0 +1,103 @@
+/* 스티키 노트로 바꿀시 */
+
+/* .animate {
+    transition: all 750ms ease-in-out;
+}
+.awesome {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    backface-visibility: hidden;
+}
+.awesome .sticky {
+    transform: rotate(45deg);
+}
+.awesome:hover .sticky {
+    transform: rotate(10deg);
+}
+.awesome .sticky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+}
+.awesome .reveal .circle {
+    box-shadow: 0 1px 0px rgba(0,0,0,.15);
+    font-family: 'helvetica neue', arial;
+    font-weight: 200;
+    line-height: 140px;
+    text-align: center;
+    cursor: pointer;
+}
+.awesome .reveal .circle {
+    background: #fafafa;
+}
+.awesome .circle_wrapper {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+.awesome .circle {
+    position: absolute;
+    width: 140px;
+    height:  140px;
+    margin: 20px;
+    border-radius: 999px;
+}
+.awesome .back {
+    height: 10px;
+    top: 30px;
+}
+.awesome:hover .back {
+    height: 90px;
+    top: 110px;
+}
+.awesome .back .circle {
+    margin-top: -130px;
+    background-color: #fbec3f;
+    background-image: -webkit-linear-gradient(bottom, rgba(251,236,63,.0), rgba(255,255,255,.8));
+}
+.awesome:hover .back .circle {
+    margin-top: -50px;
+}
+.awesome .front {
+    height: 150px;
+    bottom: 0;
+    top: auto;
+    -webkit-box-shadow: 0 -140px 20px -140px rgba(0,0,0,.3);
+}
+.awesome:hover .front {
+    height: 70px;
+    -webkit-box-shadow: 0 -60px 10px -60px rgba(0,0,0,.1);
+}
+.awesome .front .circle {
+    margin-top: -10px;
+    background: #fbec3f;
+    background-image: -webkit-linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+    background-image: -moz-linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+    background-image: linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+}
+.awesome h4 {
+    font-family: 'helvetica neue', arial;
+    font-weight: 200;
+    text-align: center;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    transition: opacity 50ms linear 400ms;
+}
+.awesome:hover h4 {
+    opacity: 0;
+    transition: opacity 50ms linear 300ms;
+}
+.awesome:hover .front .circle {
+    margin-top: -90px;
+    background-color: #e2d439;
+    background-position: 0 100px;
+} */
